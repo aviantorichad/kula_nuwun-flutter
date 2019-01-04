@@ -6,6 +6,7 @@ void main() => runApp(MyApp());
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    final wordPair = WordPair.random();
     return MaterialApp(
       title: 'Kula Nuwun',
       home: Scaffold(
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
           title: Text('Sugeng Rawuh'),
         ),
         body: Center(
-          child: Text('Assalamu\'alaikum'),
+          child: Text(wordPair.asPascalCase),
         ),
       ),
     );
