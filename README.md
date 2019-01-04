@@ -1,6 +1,7 @@
 # kula_nuwun
 
 A new Flutter project.
+Pertama kali belajar membuat aplikasi menggunakan flutter dan vim
 
 ## Getting Started
 
